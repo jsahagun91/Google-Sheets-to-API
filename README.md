@@ -43,3 +43,8 @@ get_worksheet_as_dataframe(
     skip_cols=0,
     has_header=True)
 ```
+
+## More
+
+- Follow me on [X](https://x.com/mattppal) or [LinkedIn](https://www.linkedin.com/in/matt-palmer/) for more great templates
+- Check out https://replit.com/templates or https://replit.com/guides for the latest and greatest!# Google-Sheets-to-API
