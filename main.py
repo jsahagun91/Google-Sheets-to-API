@@ -12,17 +12,17 @@ templates = Jinja2Templates(directory="utils")
 # Full sheet url with parameters, be sure #gid=[ID] is present
 # e.g. https://docs.google.com/spreadsheets/d/[ID]/edit#gid=[GID]
 
-WORKSHEET_URL = "https://docs.google.com/spreadsheets/d/1SHLkaI73Dvk8h6gAqHfuqthVm8htBXVZ-rnQ2tfHvWA/edit#gid=2044031673"
+WORKSHEET_URL = "https://docs.google.com/spreadsheets/d/1CD8Cbtcpp-LtuGOF6BMO2XlaDnxTAJkr0Yqx7YzcD5M/edit?gid=0#gid=0"
 
 DF = get_worksheet_as_dataframe(spreadsheet_url=WORKSHEET_URL,
-                                require_auth=False,
+                                require_auth=True,
                                 skip_rows=0,
                                 skip_cols=0,
                                 has_header=True)
 
-TITLE = "U.S. National Parks 🌲"
+TITLE = "Cold Outreach"
 
-INDEX_COL = "name"
+INDEX_COL = "Business"
 
 # New FastAPI app
 app = FastAPI()
